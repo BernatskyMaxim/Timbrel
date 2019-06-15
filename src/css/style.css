@@ -115,3 +115,60 @@ h2.title {
     margin: 0 auto;
     margin-top: 13px;
 }
+
+.waiting {
+    height: 604px;
+    background-color: #efefef; 
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting__header {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.waiting .waiting__divider {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.waiting .waiting__subheader {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.waiting .waiting__wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting__wrapper .waiting__item {
+    width: 339px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 15px;
+}
+
+.waiting .waiting__wrapper .waiting__item .waiting__img {
+    width: 100%;
+}
+
+.waiting .waiting__wrapper .waiting__item .waiting__descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
